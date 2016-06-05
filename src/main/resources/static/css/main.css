@@ -1,0 +1,7 @@
+.gridCell {
+	padding: 0;
+	background-color: grey;
+	display: inline-block;
+	border : 1px solid white;
+	margin-bottom: -5px;
+}

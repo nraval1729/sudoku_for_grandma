@@ -8,70 +8,19 @@
          avoid minification for clarity. -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-  	<script src="js/jquery-2.1.1.js"></script>
-    <script src="js/main.js"></script>
-    
-    <h1 align="center">Bacon</h1>
-    
-     <div id = "wrapperDiv">
-     <!-- <form method="POST" action="/path"> -->
-	     <div id="startActorDiv">
-	      <textarea id="userInputStartActor" rows="1" cols="20" placeholder="Start Actor!">
-	      </textarea>
-	      
-	       <div class="listOfSuggestions1">
-      
-		      <div id="suggestionStart1">
-		      </div>
-		
-		       <div id="suggestionStart2">
-		      </div>
-		
-		       <div id="suggestionStart3">
-		      </div>
-		
-		       <div id="suggestionStart4">
-		      </div>
-		
-		       <div id="suggestionStart5">
-		      </div>
-		
-		  </div>
-	    </div>
-	    
-	     <div id="endActorDiv">
-	      <textarea id="userInputEndActor" rows="1" cols="20" placeholder="End Actor!">
-	      </textarea>
-	      
-	      <div class="listOfSuggestions2">
-      
-		      <div id="suggestionEnd1">
-		      </div>
-		
-		       <div id="suggestionEnd2">
-		      </div>
-		
-		       <div id="suggestionEnd3">
-		      </div>
-		
-		       <div id="suggestionEnd4">
-		      </div>
-		
-		       <div id="suggestionEnd5">
-		      </div>
-		
-		  </div>
-	      
-	    </div>
-	    
-	    <input id ="submitButton" type = "submit" value = "Find Path!">
-	 <!-- </form> -->
-	 </div>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-	 <div id = "path">
-	 </div>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script>
+
+  </head>
+
+  <body>    
+    <h1 align="center">Sudoku</h1>
+    <center>
+    <div id="sudokuGrid">
+    </div>
+    </center>
     
   </body>
   <!-- See http://html5boilerplate.com/ for a good place to start

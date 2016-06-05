@@ -36,7 +36,7 @@ PROJECT=$(basename "$(pwd)")
 
 # Find the package that Main is in. TAs use "staff", students should
 # rename it to their own username. In the file names and in the source!
-MAIN=$(ls src/main/java/edu/brown/cs/nrawal/sudoku/Main.java)
+MAIN=$(ls src/main/java/edu/brown/cs/nrawal/sudoku_for_grandma/Main.java)
 [ -z "$MAIN" ] && echo "You need a Main.java" && exit 1
 [ ! -e "$MAIN" ] && echo "You can only have one Main.java" && exit 1
 PKG=$(basename $(dirname $(dirname $MAIN)))
