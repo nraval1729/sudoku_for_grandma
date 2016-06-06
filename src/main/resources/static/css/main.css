@@ -1,7 +1,32 @@
 .gridCell {
 	padding: 0;
-	background-color: grey;
+	background-color: white;
 	display: inline-block;
-	border : 1px solid white;
+	border : 1px solid #b2b2b2;
 	margin-bottom: -5px;
+	text-align: center;
+}
+
+h1 {
+	margin: 30px;
+}
+
+#sudokuGrid {
+	margin: 30px;
+}
+
+.btn-primary {
+	margin: 15px;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+p {
+	align: center;
+	font-size: 28px;
 }
