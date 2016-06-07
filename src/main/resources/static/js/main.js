@@ -59,6 +59,7 @@ var cellHeight;
 				}).appendTo("#sudokuGrid");
 
 				var id = "#" + "gridCell" +row +col;
+				var fooId = "gridCell" +row +col;
 
 				if(col == 2 || col == 5) {
 					$(id).css({
@@ -91,10 +92,10 @@ var cellHeight;
 				else {
 					$(id).click(function() {
 						this.contentEditable='true';
+						document.getElementById(fooId).style.fontSize="xx-large";
 					});
 					$(id).click();
 					$(id).html("<p></p>");
-
 				}
 			}
 			$("#sudokuGrid").append("<br/>");

@@ -27,6 +27,7 @@ a.fill-div {
 }
 
 p {
-	align: center;
-	font-size: 28px;
+	/*text-align: center;*/
+	font-size: 33px;
+	color: #f3a505;
 }
